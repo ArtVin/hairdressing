@@ -1,0 +1,32 @@
+body {
+	font: 18px Calibri;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 60px auto;
+}
+
+#header {
+	background-color: #595959;
+	color: #FFFFFF;
+	width: 700px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	-webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#content {
+	margin-top: 20px;
+	padding: 30px;
+	background-color: #F2F2F2;
+	color: #FFFFFF;
+	width: 640px;
+	line-height: 40px;
+	text-align: center;
+	color: #595959;
+	font-weight: bold;
+	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,86 @@
+body {
+	font: 18px Calibri;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 60px auto;
+}
+
+#auth {
+	float: right;
+	-webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#logout {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font: 20px Calibri;
+	background-color: #F2F2F2;
+	border: none;
+	cursor: pointer;
+}
+
+#header {
+	background-color: #595959;
+	color: #FFFFFF;
+	width: 600px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	-webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#content {
+	margin-top: 20px;
+	padding: 30px;
+	background-color: #F2F2F2;
+	width:640px;
+	text-align: center;
+	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#submit {
+	display: inline-block;
+	background-color: #7F7F7F;
+	color: #ECECEC;
+	margin: 0;
+	width: 180px;
+	height: 35px;
+	font-size: 16px;
+	text-align: center;
+	border: none;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+table {
+	display: inline-block;
+}
+
+h3 {
+	margin: 0;
+}
+
+#table3 td,
+#table1 td{
+	padding: 0 10px;
+}
+
+#table2 td{
+	padding: 8px;
+	vertical-align: top;
+}
+
+#left_side {
+	text-align: left;
+}
+
+#right_side {
+	text-align: right;
+	width: 250px;
+}
