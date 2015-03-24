@@ -8,7 +8,6 @@ $textColour = array( 0, 0, 0 );
 	$pdf->AddPage();
 	$pdf->AddFont('ArialMT','B','arial.php');
 	$pdf->SetFont('ArialMT','B',14);
-	//$pdf->SetFont( 'Arial', 'B', 24 );
 	$pdf->Ln( $reportNameYPos );
 	$pdf->Cell( 0, 15, "Îעקוע חא לוסÿצ ןמ נאבמעו ×Ï", 0, 0, 'C' );
 	
