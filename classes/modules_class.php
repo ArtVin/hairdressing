@@ -76,10 +76,5 @@ abstract class Modules {
 		}
 		return str_replace($search, $replace, $content);
 	}
-	
-	// protected function redirect($link) {
-		// header("Location: $link");
-		// exit;
-	// }
 }
 ?>

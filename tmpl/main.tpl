@@ -19,7 +19,7 @@
 			<table border="1">
 				<tr>
 					<td valign="top">
-						<table border="1">
+						<tableû>
 							<tr>
 								<td><a href="http://dgma/hairdressing/?view=">Çàêàçû</a></td>
 							</tr>                        
@@ -45,15 +45,11 @@
 					</td>
 					<td>
 						<h3 id="name2">%title%</h3>
-						
-							
 							%middle%
 							%form%
-						
 					</td>
 				</tr>
 			</table>
-			
 		</div>
 		</form>
 		<div id="footer"></div>
