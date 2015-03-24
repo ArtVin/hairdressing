@@ -279,29 +279,5 @@ class Manage {
 		$pdf->Output( "report.pdf", "I" );
 		return $r = $this->config->adress."?view=";
 	}
-/*
-	public function login() {
-		$login = $this->data["login"];
-		$password = $this->data["password"];
-		$password = $this->hashPassword($password);
-		if ($this->user->checkUser($login, $password)) {
-			$_SESSION["login"] = $login;
-			$_SESSION["password"] = $password;
-			return $r = $this->config->adress."?view=admin";
-		}
-		else {
-			return $r = $this->config->adress."?view=auth";;
-		}
-	}
-	
-	public function logout() {
-		unset($_SESSION["login"]);
-		unset($_SESSION["password"]);
-		return $this->config->adress."?view=";
-	}
-	
-	private function hashPassword($password) {
-		return md5($password.$this->config->secret);
-	}*/
 }	
 ?>
